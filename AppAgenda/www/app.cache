@@ -1,0 +1,42 @@
+CACHE MANIFEST
+# cache version 1.0.0.0
+
+#--------------------------------
+# CSS
+#--------------------------------
+/css/style.css
+/lib/ionic/css/ionic.css
+/lib/ionic/js/ionic.bundle.js
+#--------------------------------
+# Images
+#--------------------------------
+/img/ionic.png
+/img/avQ0gr8MT9l98CU6vknQ_ionic.jpg
+
+#--------------------------------
+# JavaScript
+#--------------------------------
+/js/app.js
+/js/controllers.js
+/js/directives.js
+/js/routes.js
+/js/services.js
+
+/lib/ionic/js/ionic.bundle.js
+cordova.js
+
+#--------------------------------
+# Fontes
+#--------------------------------
+
+/lib/ionic/fonts/ionicons.ttf?v=2.0.1
+/lib/ionic/fonts/ionicons.woff?v=2.0.1
+/lib/ionic/fonts/ionicons.woff
+
+#--------------------------------
+# Html
+#--------------------------------
+/templates/agenda.html
+/templates/sobre.html
+
+index.html

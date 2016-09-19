@@ -1,0 +1,33 @@
+<ion-view view-title="Buscar CEP">
+  <ion-content class="padding">
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Informe seu cep:</span>
+        <input type="text" placeholder="00000000" ng-model="cepInformado">
+      </label>
+      <button class="button button-block button-positive" ng-click="consultarEndereco(cepInformado)">Consultar</button>
+    </div>
+    <ion-list ng-hide="endereco==null">
+      <ion-item class="item">
+        <p>Logradouro</p>
+        <h2>{{endereco.logradouro}}</h2>
+      </ion-item>
+      <ion-item class="item">
+        <p>Complemento</p>
+        <h2>{{endereco.complemento}}</h2>
+      </ion-item>
+      <ion-item class="item">
+        <p>Bairro</p>
+        <h2>{{endereco.bairro}}</h2>
+      </ion-item>
+      <ion-item class="item">
+        <p>Cidade</p>
+        <h2>{{endereco.localidade}}</h2>
+      </ion-item>
+      <ion-item class="item">
+        <p>UF</p>
+        <h2>{{endereco.uf}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
