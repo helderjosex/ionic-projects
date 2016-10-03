@@ -3,12 +3,14 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ContasPage } from '../pages/contas/contas';
+import { ModalContasPage } from './../pages/modal-contas/modal-contas';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ContasPage
+    ContasPage,
+    ModalContasPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -17,7 +19,8 @@ import { ContasPage } from '../pages/contas/contas';
   entryComponents: [
     MyApp,
     HomePage,
-    ContasPage
+    ContasPage,
+    ModalContasPage
   ],
   providers: []
 })

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Cadastro de Conta</ion-title>
+    <button ion-button menuToggle='left' (click)="cancel()">
+      <ion-icon name="close"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <ion-list>
+      <ion-item>
+        <ion-label color="primary" stacked>Descrição</ion-label>
+        <ion-input type="text" placeholder="Descrição" [(ngModel)]="conta.descricao"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button block color="light" (click)="salvar()">Salvar</button>
+</ion-content>
