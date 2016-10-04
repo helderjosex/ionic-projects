@@ -10,9 +10,9 @@ import { ContasPage } from '../pages/contas/contas';
 })
 export class MyApp {
 
-  private home;
-  private contas;
-  private rootPage;
+  private home: any;
+  private contas: any;
+  private rootPage: any;
 
   constructor(platform: Platform) {
 

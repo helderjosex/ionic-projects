@@ -12,8 +12,8 @@ import { ModalContasPage } from '../modal-contas/modal-contas';
 })
 export class ContasPage {
   
-  private conta:ContasModel;
-  private listContas: any[];
+  private conta: ContasModel; 
+  private listContas: Array<ContasModel>;
 
   constructor(public nav: NavController, public modalCtrl: ModalController) {
 
@@ -43,7 +43,6 @@ export class ContasPage {
   }
 
   delete(conta) {
-    console.log(conta);
     this.conta.delete(conta);
   }
 

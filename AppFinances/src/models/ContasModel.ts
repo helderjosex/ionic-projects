@@ -1,6 +1,6 @@
 export class ContasModel {
     
-    private list:Array<any>
+    private list: Array<any>
 
     constructor() {
         this.list = [
