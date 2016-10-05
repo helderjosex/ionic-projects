@@ -3,20 +3,19 @@
 Ionic version 1: 
 
  **AppAgenda**
+ 
  **AppCorreio**
 
 Ionic version: 2
 
  **AppFinances**
  
- 
-Instruções de instalação
+**Instruções de instalação localmente:**
 
-Fazer o clone do repositório
+1. Fazer o clone do repositório
 
-Acessar a pasta raiz de cada projeto no Terminal
+2. Acessar a pasta raiz de cada projeto no Terminal
 
-Rodar npm install
+3. Rodar `npm install`
 
-Rodar ionic serve
-
+4. Rodar `ionic serve`
