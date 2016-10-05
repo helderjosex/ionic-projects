@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { MenuPage } from '../pages/menu/menu';
 import { HomePage } from '../pages/home/home';
 import { ContasPage } from '../pages/contas/contas';
 import { ModalContasPage } from './../pages/modal-contas/modal-contas';
@@ -8,6 +9,7 @@ import { ModalContasPage } from './../pages/modal-contas/modal-contas';
 @NgModule({
   declarations: [
     MyApp,
+    MenuPage,
     HomePage,
     ContasPage,
     ModalContasPage
@@ -18,6 +20,7 @@ import { ModalContasPage } from './../pages/modal-contas/modal-contas';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    MenuPage,
     HomePage,
     ContasPage,
     ModalContasPage
