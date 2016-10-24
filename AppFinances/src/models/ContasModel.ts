@@ -4,7 +4,7 @@ export class ContasModel {
 
     constructor() {
         this.list = [
-            {descricao: "Alimentacao"},
+            {descricao: "Alimentação"},
             {descricao: "Lazer"},
             {descricao: "Transporte"}
         ];
