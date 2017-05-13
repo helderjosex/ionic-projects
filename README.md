@@ -8,7 +8,7 @@ Ionic version 1:
 
 Ionic version: 2
 
- **AppFinances**
+ **AppShoppingList**
  
 **Instruções de instalação localmente:**
 
